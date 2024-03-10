@@ -12,7 +12,7 @@ import React, { useState } from 'react';
 import NotFoundPage from './Components/NotFoundPage/NotFoundPage';
 
 
-axios.defaults.baseURL = "http://localhost:3001/";
+axios.defaults.baseURL = "https://animeback-m6t3.onrender.com";
 
 function App() {
 const [isLoggedIn, setIsLoggedIn]= useState(false)
